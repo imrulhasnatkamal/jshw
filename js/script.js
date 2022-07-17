@@ -30,7 +30,7 @@ $('li').click(function(){
 });
 
 // parent 
-$('button').click(function(){
+$('.c_bnt').click(function(){
     $(this).parent().css("background-color","green").css("border","4px solid red").css("color","blue");
 });
 
